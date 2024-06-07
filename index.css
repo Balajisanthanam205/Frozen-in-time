@@ -1,0 +1,132 @@
+
+h1{
+    background:linear-gradient( rgb(236, 191, 77),rgb(184, 189, 144));
+    text-align: center;
+    border-radius: 30px;
+    right: auto;
+    left: auto;
+}
+
+h2{
+    background:linear-gradient( rgb(236, 191, 77),rgb(184, 189, 144));
+    text-align: center;
+    border-radius: 30px;
+    right: auto;
+    left: auto;
+}
+
+#box1{
+    /*border-width: 1px ;*/
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    color: rgb(2, 19, 19);
+    text-align: justify;
+    border-radius: 10px;
+    right: auto;
+    left: auto;
+}
+
+body{
+    background-color: rgb(150, 246, 94);
+}
+#box2{
+    border: 4px solid;
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    width: 250px;
+    height: 188px;
+   text-align: center;
+   padding: auto;
+   animation: roadani; 
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes roadani {
+    from{margin-left: 100%;}
+    to{margin-left: 30.5%;}
+}
+#box3{
+    border: 4px solid;
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    width: 250px;
+    height: 335px;
+   text-align: center;
+   padding: auto;
+   animation:pic002ani; 
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes pic002ani {
+    from{margin-left: 100%;}
+    to{margin-left: 30.5%;}
+}
+#box4{
+    border: 4px solid;
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    width: 250px;
+    height: 266px;
+   text-align: center;
+   padding: auto;
+   animation:pic002ani; 
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes pic002ani {
+    from{margin-left: 100%;}
+    to{margin-left: 30.5%;}
+}
+#box5{
+    border: 4px solid;
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    width: 250px;
+    height: 252px;
+   text-align: center;
+   padding: auto;
+   animation:pic002ani; 
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes pic002ani {
+    from{margin-left: 100%;}
+    to{margin-left: 30.5%;}
+}
+#box6{
+    border: 4px solid;
+    padding: 5px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    width: 250px;
+    height: 528px;
+   text-align: center;
+   padding: auto;
+   animation:pic002ani; 
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   margin-right: auto;
+   margin-left: auto;
+}
+@keyframes pic002ani {
+    from{margin-left: 100%;}
+    to{margin-left: 30.5%;}
+}
+
+
+#foot{
+   /* border-width: 10px ;*/
+    padding: 10px;
+    background: linear-gradient(to right , rgb(236, 191, 77),rgb(184, 189, 144));
+    color: rgb(137, 86, 106);
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+}
