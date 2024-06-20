@@ -130,6 +130,15 @@ body{
     border-radius: 10px;
     height: 100px;
 }
+.ig{
+height: 70px;
+width: 200px;
+background-color: black;
+color: darkturquoise;
+border-radius: 10px;
+font-size: 30px;
+hanging-punctuation: rgb(239, 230, 230);
+}
 html{
     margin-left: auto;
     margin-right: auto;
