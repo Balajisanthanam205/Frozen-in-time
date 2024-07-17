@@ -178,7 +178,7 @@ h2{
         height: 8%;
         position:fixed;
         float:auto;
-        bottom: 32%;
+        bottom: 25%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 40px;
@@ -187,7 +187,7 @@ h2{
         text-decoration: none;
         justify-content: center;
         color: #685757;
-        font-size: 80px;
+        font-size: 260%;
         
     }
     h2,.para,.box1,.img1,.bottom,.ig,#thanks{
