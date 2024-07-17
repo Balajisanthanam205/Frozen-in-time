@@ -132,7 +132,7 @@ h2{
    .homebackgroundvid{
 
         display: block;
-        position: fixed;
+        position: absolute;
         right: 0;
         top: 0;
         z-index: -1;
@@ -174,8 +174,8 @@ h2{
     .exp {
         display: block;
         background-color: rgba(11, 11, 11, 0.4);
-        width: 15%;
-        height: auto;
+        width: 20%;
+        height: 8%;
         position:fixed;
         float:auto;
         bottom: 32%;
@@ -185,7 +185,9 @@ h2{
         text-align: center;
         padding: 10px;
         text-decoration: none;
+        justify-content: center;
         color: #685757;
+        font-size: 80px;
         
     }
     h2,.para,.box1,.img1,.bottom,.ig,#thanks{
