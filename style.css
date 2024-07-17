@@ -1,5 +1,18 @@
+.homebackgroundvid{
+    display: none;
+}
 body{
+    background-color: #363636;
+}
+.full-background{
     background: #363636;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content:space-between;
 }
 
 h1{
@@ -8,12 +21,58 @@ h1{
    color: #f8f8f8;
     /* color: #ff894c;*/
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px; 
+    width: 100%; 
+    height: auto;  
+}
+.top-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:100% ;
+    height: 5vh;
+    border-radius: 10px;
+    padding: 10px;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.1)) ;
+    text-decoration: none;
+   
+
+}
+.top-icons{
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(6, 8, 0, 0.4)) ;
+    height:auto;
+    width: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #685757;
+   
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li
+{
+  display: inline-block;
+ margin-right: 10px;
+  list-style: none;
+
+}
+nav ul li a{
+    text-decoration:none ;
+   
+
+}
+.exp{
+    display: none;
 }
 h2{
     /*background-color:#ff894c;*/
     font-size: 100px;
-   color: #ff894c;
+   color: rgb(255, 137, 76);
     /* color: #ff894c;*/
     text-align: center;
     border-radius: 20px;
@@ -38,7 +97,7 @@ h2{
     text-align: center;
     border-radius: 40px;
     background-color: #ff894c;
-    margin: 10px;
+     
 }
 .img1{
    /* float: left;*/
@@ -61,20 +120,79 @@ h2{
     height: 110px;
     font-size: 40px;
 }
-h3{
+#thanks{
     font-size: 50px;
 }
-.homebackgroundvid{
-    display: none;
-}
+
+
+
 
 @media only screen and (min-width: 1000px) {
 
-    .homebackgroundvid{
+   .homebackgroundvid{
+
         display: block;
-        width: 100%;
-        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: -1;
     }
+    @media (min-aspect-ratio:16/9){
+        .homebackgroundvid{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio:16/9){
+        .homebackgroundvid{
+            width:auto;
+            height: 100%;
+        }
+    }
+     /*body{
+        background-image: url("frozen in time.mp4");
+    }*/
+    h1{
+     width: 60%;
+     height: 25%;
+    
+     
+     position: absolute;
+     
+    }
+   /* .exp{
+        display:block;
+        background-color: rgb(97, 111, 44,.4);
+        float: none;
+        width: 20%;
+        height: auto;
+        position:absolute;
+        border-radius: 40px;
+        
+
+    }*/
+    .exp {
+        display: block;
+        background-color: rgba(11, 11, 11, 0.4);
+        width: 15%;
+        height: auto;
+        position:fixed;
+        float:auto;
+        bottom: 32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: #685757;
+        
+    }
+    h2,.para,.box1,.img1,.bottom,.ig,#thanks{
+     display: none;
+    }
+  
+    
 
     
 }
